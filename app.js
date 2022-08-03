@@ -5,7 +5,7 @@ questions.forEach(question => {
     // shows the class of each article that has the class question
     // console.log(question)
 
-    // instead of using query selector here, the value is assigned to each btn
+    // instead of using document here, question is used to querySelector
     // this makes sure that all the buttons in all the articles aren't accessed
     // only the button of the each article is being selected
     const btn = question.querySelector(".question-btn");
@@ -45,7 +45,7 @@ btns.forEach(btn => {
         // accessing the tile then accessing the article containing the question
         const question = event.currentTarget.parentElement.parentElement;
 
-        // question-text and minus-icon clasees has display set to none in CSS
+        // question-text and minus-icon classes has display set to none in CSS
         // clicking the plus-icon adds show-text class to the question
         // the CSS sets the display of plus-icon to none and displays the minus-icon
         question.classList.toggle("show-text");
