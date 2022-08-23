@@ -1,3 +1,6 @@
+VIEW THE PROJECT HERE: https://precious-sprite-bdb8bf.netlify.app
+
+
 Two methods of code dropdown from a section shown: 
 1. Using selectors inside the element
 Using selectors inside the element, the question class of each article is assigned inside a variable questions, and looped through. Instead of using query selector in the button variable, the value of the running loop is assigned to each btn. This makes sure that all the buttons in all the articles aren't accessed, only the button of the each article is being selected. 
